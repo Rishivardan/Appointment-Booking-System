@@ -119,13 +119,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Create `.env` file
-
-```
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/appointment_db?retryWrites=true&w=majority
-```
-
-### 5. Run backend
+### 4. Run backend
 
 ```bash
 uvicorn main:app --reload
